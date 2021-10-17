@@ -11,3 +11,9 @@ prueba1.classList
 
 form_content.appendChild(prueba1);
 /*prueba*/
+
+
+function cargar (){
+
+    var input = document.createElement ("input")
+}
