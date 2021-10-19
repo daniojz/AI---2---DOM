@@ -198,7 +198,7 @@ form_content.appendChild(prueba1);
     form_content.appendChild(input); 
 
 
-    var form_content = document.getElementById("form");
+
     var input = document.createElement ("input");
     input.className="form-container-content";
     input.type="checkbox";
@@ -209,7 +209,7 @@ form_content.appendChild(prueba1);
     form_content.appendChild(input); 
 
 
-    var form_content = document.getElementById("form");
+  
     var input = document.createElement ("input");
     input.className="form-container-content";
     input.type="checkbox";
@@ -220,7 +220,7 @@ form_content.appendChild(prueba1);
     form_content.appendChild(input); 
 
 
-    var form_content = document.getElementById("form");
+    
     var input = document.createElement ("input");
     input.className="form-container-content";
     input.type="checkbox";
@@ -232,8 +232,8 @@ form_content.appendChild(prueba1);
 
     /* INSERTAR IMAGENES */
 
-    const img = document.createElement ("imgfirst");
-    imgfirst.src= imgfirst;
+    const img = document.createElement ("img");
+    img.src= imgfirst;
     imgfirst.alt="Logo_medad";
 
     document.body.appendChild(form_content);
