@@ -1,5 +1,5 @@
 
-/* CHECKBOX - EDAD */
+/* CHECKBOX  EDAD */
 var form_content = document.getElementById("form");
 var input = document.createElement ("input");
 var label = document.createElement ("label");
@@ -52,7 +52,7 @@ input.value="rango_centena";
 input="Tengo más de 40 años";
 form_content.appendChild(input);
 
-/*CHECKBOX - TIPO JUEGO */
+/*CHECKBOX  TIPO JUEGO */
 
 var input = document.createElement ("input");
 var label = document.createElement ("label");
@@ -126,7 +126,7 @@ input.value="estrategia";
 input="Estrategia";
 form_content.appendChild(input);
 
-/*CHECKBOX - INFO MAIL */
+/*CHECKBOX  INFO MAIL */
 
 var input = document.createElement ("input");
 var label = document.createElement ("label");
@@ -182,7 +182,7 @@ input.value="tres_omas";
 input="Tres o mas";
 form_content.appendChild(input); 
 
-/*CHECKBOX - IDIOMAS*/
+/*CHECKBOX  IDIOMAS*/
 
 
 
@@ -268,7 +268,7 @@ input.value="ruso";
 input="Ruso";
 form_content.appendChild(input); 
 
-/* INSERTAR - IMAGENES */
+/* INSERTAR  IMAGENES */
 
 const img = document.createElement ("img");
 img.src= imgfirst;
