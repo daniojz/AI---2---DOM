@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 /* CHECKBOX - EDAD */
 var form_content = document.getElementById("form"); /* Me situo en el form del documento */
 var input = document.createElement ("input"); /* creo un nodo input  */
@@ -11,6 +12,21 @@ input.id="rango_menor";
 input.name="rango_menor"; 
 input.value="rango_menor"; 
 form_content.appendChild(input); /*  pongo input como hijo de form_content */
+=======
+/* CHECKBOX  EDAD */
+var form_content = document.getElementById("form");
+var input = document.createElement ("input");
+var label = document.createElement ("label");
+label.for = "rango_menor";
+form_content.appendChild(label);
+input.className="form-container-content";
+input.type="checkbox";
+input.id="rango_menor";
+input.name="rango_menor";
+input.value="rango_menor";
+input="Tengo menos de 18 años";
+form_content.appendChild(input);
+>>>>>>> c94a521f997a2ab6fb1af7f527cbaca80b9fbcfe
 
 
 var input = document.createElement ("input");
@@ -48,7 +64,7 @@ input.name="rango_centena";
 input.value="rango_centena";
 form_content.appendChild(input);
 
-/*CHECKBOX - TIPO JUEGO */
+/*CHECKBOX  TIPO JUEGO */
 
 var input = document.createElement ("input");
 var label = document.createElement ("label");
@@ -116,7 +132,7 @@ input.name="estrategia";
 input.value="estrategia";
 form_content.appendChild(input);
 
-/*CHECKBOX - INFO MAIL */
+/*CHECKBOX  INFO MAIL */
 
 var input = document.createElement ("input");
 var label = document.createElement ("label");
@@ -168,7 +184,7 @@ input.name="tres_omas";
 input.value="tres_omas";
 form_content.appendChild(input); 
 
-/*CHECKBOX - IDIOMAS*/
+/*CHECKBOX  IDIOMAS*/
 
 
 
@@ -248,7 +264,7 @@ input.name="ruso";
 input.value="ruso";
 form_content.appendChild(input); 
 
-/* INSERTAR - IMAGENES */
+/* INSERTAR  IMAGENES */
 
 const img = document.createElement ("img");
 img.src= imgfirst;
