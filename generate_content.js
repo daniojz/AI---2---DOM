@@ -23,7 +23,7 @@ form_content.appendChild(prueba1);
     input="Tengo menos de 18 años";
     form_content.appendChild(input);
     
-    var form_content = document.getElementById("form");
+
     var input = document.createElement ("input");
     input.className="form-container-content";
     input.type="checkbox";
@@ -33,7 +33,7 @@ form_content.appendChild(prueba1);
     input="Tengo entre 18 y 30 años años";
     form_content.appendChild(input);    
 
-    var form_content = document.getElementById("form");
+
     var input = document.createElement ("input");
     input.className="form-container-content";
     input.type="checkbox";
@@ -43,7 +43,7 @@ form_content.appendChild(prueba1);
     input="Tengo entre 30 y 40 años";
     form_content.appendChild(input);
     
-    var form_content = document.getElementById("form");
+
     var input = document.createElement ("input");
     input.className="form-container-content";
     input.type="checkbox";
@@ -55,7 +55,6 @@ form_content.appendChild(prueba1);
 
 /*CHECKBOX TIPO JUEGO */
 
-    var form_content = document.getElementById("form");
     var input = document.createElement ("input");
     input.className="form-container-content";
     input.type="checkbox";
@@ -65,7 +64,6 @@ form_content.appendChild(prueba1);
     input="Bélico";
     form_content.appendChild(input);
 
-    var form_content = document.getElementById("form");
     var input = document.createElement ("input");
     input.className="form-container-content";
     input.type="checkbox";
@@ -75,7 +73,6 @@ form_content.appendChild(prueba1);
     input="Acción";
     form_content.appendChild(input);
 
-    var form_content = document.getElementById("form");
     var input = document.createElement ("input");
     input.className="form-container-content";
     input.type="checkbox";
@@ -85,7 +82,6 @@ form_content.appendChild(prueba1);
     input="Plataforma";
     form_content.appendChild(input);
 
-    var form_content = document.getElementById("form");
     var input = document.createElement ("input");
     input.className="form-container-content";
     input.type="checkbox";
@@ -95,7 +91,6 @@ form_content.appendChild(prueba1);
     input="Deportivo";
     form_content.appendChild(input);
 
-    var form_content = document.getElementById("form");
     var input = document.createElement ("input");
     input.className="form-container-content";
     input.type="checkbox";
@@ -105,7 +100,6 @@ form_content.appendChild(prueba1);
     input="Arcade";
     form_content.appendChild(input);
 
-    var form_content = document.getElementById("form");
     var input = document.createElement ("input");
     input.className="form-container-content";
     input.type="checkbox";
@@ -117,7 +111,6 @@ form_content.appendChild(prueba1);
 
 /*CHECKBOX INFO MAIL */
 
-    var form_content = document.getElementById("form");
     var input = document.createElement ("input");
     input.className="form-container-content";
     input.type="checkbox";
@@ -130,7 +123,6 @@ form_content.appendChild(prueba1);
 /*CHECKBOX TIPOS CONSOLA */
 
     
-    var form_content = document.getElementById("form");
     var input = document.createElement ("input");
     input.className="form-container-content";
     input.type="checkbox";
@@ -141,7 +133,6 @@ form_content.appendChild(prueba1);
     form_content.appendChild(input); 
 
 
-    var form_content = document.getElementById("form");
     var input = document.createElement ("input");
     input.className="form-container-content";
     input.type="checkbox";
@@ -152,7 +143,7 @@ form_content.appendChild(prueba1);
     form_content.appendChild(input); 
 
 
-    var form_content = document.getElementById("form");
+   
     var input = document.createElement ("input");
     input.className="form-container-content";
     input.type="checkbox";
@@ -165,7 +156,7 @@ form_content.appendChild(prueba1);
 /*CHECKBOX IDIOMAS*/
 
 
-    var form_content = document.getElementById("form");
+
     var input = document.createElement ("input");
     input.className="form-container-content";
     input.type="checkbox";
@@ -176,7 +167,7 @@ form_content.appendChild(prueba1);
     form_content.appendChild(input); 
 
 
-    var form_content = document.getElementById("form");
+   
     var input = document.createElement ("input");
     input.className="form-container-content";
     input.type="checkbox";
@@ -187,7 +178,7 @@ form_content.appendChild(prueba1);
     form_content.appendChild(input); 
 
 
-    var form_content = document.getElementById("form");
+    
     var input = document.createElement ("input");
     input.className="form-container-content";
     input.type="checkbox";
@@ -236,7 +227,7 @@ form_content.appendChild(prueba1);
     img.src= imgfirst;
     imgfirst.alt="Logo_medad";
 
-    document.body.appendChild(form_content);
+    
 
 
     
