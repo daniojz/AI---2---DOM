@@ -2,6 +2,9 @@
 /* CHECKBOX - EDAD */
 var form_content = document.getElementById("form");
 var input = document.createElement ("input");
+var label = document.createElement ("label");
+label.for = "rango_menor";
+form_content.appendChild(label);
 input.className="form-container-content";
 input.type="checkbox";
 input.id="rango_menor";
@@ -12,6 +15,9 @@ form_content.appendChild(input);
 
 
 var input = document.createElement ("input");
+var label = document.createElement ("label");
+label.for = "rango_veintena";
+form_content.appendChild(label);
 input.className="form-container-content";
 input.type="checkbox";
 input.id="rango_veintena";
@@ -22,6 +28,9 @@ form_content.appendChild(input);
 
 
 var input = document.createElement ("input");
+var label = document.createElement ("label");
+label.for = "rango_treintena";
+form_content.appendChild(label);
 input.className="form-container-content";
 input.type="checkbox";
 input.id="rango_treintena";
@@ -32,6 +41,9 @@ form_content.appendChild(input);
 
 
 var input = document.createElement ("input");
+var label = document.createElement ("label");
+label.for = "rango_centena";
+form_content.appendChild(label);
 input.className="form-container-content";
 input.type="checkbox";
 input.id="rango_centena";
@@ -43,15 +55,21 @@ form_content.appendChild(input);
 /*CHECKBOX - TIPO JUEGO */
 
 var input = document.createElement ("input");
+var label = document.createElement ("label");
+label.for = "belico";
+form_content.appendChild(label);
 input.className="form-container-content";
 input.type="checkbox";
-input.id="bélico";
-input.name="bélico";
-input.value="bélico";
+input.id="belico";
+input.name="belico";
+input.value="belico";
 input="Bélico";
 form_content.appendChild(input);
 
 var input = document.createElement ("input");
+var label = document.createElement ("label");
+label.for = "accion";
+form_content.appendChild(label);
 input.className="form-container-content";
 input.type="checkbox";
 input.id="accion";
@@ -61,6 +79,9 @@ input="Acción";
 form_content.appendChild(input);
 
 var input = document.createElement ("input");
+var label = document.createElement ("label");
+label.for = "plataforma";
+form_content.appendChild(label);
 input.className="form-container-content";
 input.type="checkbox";
 input.id="plataforma";
@@ -70,6 +91,9 @@ input="Plataforma";
 form_content.appendChild(input);
 
 var input = document.createElement ("input");
+var label = document.createElement ("label");
+label.for = "deportivo";
+form_content.appendChild(label);
 input.className="form-container-content";
 input.type="checkbox";
 input.id="deportivo";
@@ -79,6 +103,9 @@ input="Deportivo";
 form_content.appendChild(input);
 
 var input = document.createElement ("input");
+var label = document.createElement ("label");
+label.for = "arcade";
+form_content.appendChild(label);
 input.className="form-container-content";
 input.type="checkbox";
 input.id="arcade";
@@ -88,6 +115,9 @@ input="Arcade";
 form_content.appendChild(input);
 
 var input = document.createElement ("input");
+var label = document.createElement ("label");
+label.for = "estrategia";
+form_content.appendChild(label);
 input.className="form-container-content";
 input.type="checkbox";
 input.id="estrategia";
@@ -99,6 +129,9 @@ form_content.appendChild(input);
 /*CHECKBOX - INFO MAIL */
 
 var input = document.createElement ("input");
+var label = document.createElement ("label");
+label.for = "mail_si";
+form_content.appendChild(label);
 input.className="form-container-content";
 input.type="checkbox";
 input.id="mail_si";
@@ -111,6 +144,9 @@ form_content.appendChild(input);
 
 
 var input = document.createElement ("input");
+var label = document.createElement ("label");
+label.for = "uno";
+form_content.appendChild(label);
 input.className="form-container-content";
 input.type="checkbox";
 input.id="uno";
@@ -121,6 +157,9 @@ form_content.appendChild(input);
 
 
 var input = document.createElement ("input");
+var label = document.createElement ("label");
+label.for = "dos";
+form_content.appendChild(label);
 input.className="form-container-content";
 input.type="checkbox";
 input.id="dos";
@@ -132,6 +171,9 @@ form_content.appendChild(input);
 
 
 var input = document.createElement ("input");
+var label = document.createElement ("label");
+label.for = "tres_omas";
+form_content.appendChild(label);
 input.className="form-container-content";
 input.type="checkbox";
 input.id="tres_omas";
@@ -145,6 +187,9 @@ form_content.appendChild(input);
 
 
 var input = document.createElement ("input");
+var label = document.createElement ("label");
+label.for = "español";
+form_content.appendChild(label);
 input.className="form-container-content";
 input.type="checkbox";
 input.id="español";
@@ -156,6 +201,9 @@ form_content.appendChild(input);
 
 
 var input = document.createElement ("input");
+var label = document.createElement ("label");
+label.for = "ingles";
+form_content.appendChild(label);
 input.className="form-container-content";
 input.type="checkbox";
 input.id="ingles";
@@ -167,6 +215,9 @@ form_content.appendChild(input);
 
 
 var input = document.createElement ("input");
+var label = document.createElement ("label");
+label.for = "frances";
+form_content.appendChild(label);
 input.className="form-container-content";
 input.type="checkbox";
 input.id="frances";
@@ -178,6 +229,9 @@ form_content.appendChild(input);
 
 
 var input = document.createElement ("input");
+var label = document.createElement ("label");
+label.for = "aleman";
+form_content.appendChild(label);
 input.className="form-container-content";
 input.type="checkbox";
 input.id="aleman";
@@ -189,6 +243,9 @@ form_content.appendChild(input);
 
 
 var input = document.createElement ("input");
+var label = document.createElement ("label");
+label.for = "chino";
+form_content.appendChild(label);
 input.className="form-container-content";
 input.type="checkbox";
 input.id="chino";
@@ -200,6 +257,9 @@ form_content.appendChild(input);
 
 
 var input = document.createElement ("input");
+var label = document.createElement ("label");
+label.for = "ruso";
+form_content.appendChild(label);
 input.className="form-container-content";
 input.type="checkbox";
 input.id="ruso";
