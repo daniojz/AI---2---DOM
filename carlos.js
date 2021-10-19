@@ -1,5 +1,4 @@
 function tipoJuegos(){
-    //variable en la que introduzco el HTML
     let textos =
         "<label for='puzzle'>Puzzle:</label>"+
         "<input type='radio' name='puzzle' id='puzzle'/>"+
@@ -12,6 +11,5 @@ function tipoJuegos(){
 
         "<label for='deportes'>Deportes</label>"+
         "<input type='radio' name='deportes' id='deportes'/>" 
-    //Añado el HTML creado en js al div de mi página
     div2.innerHTML = textos
 }
