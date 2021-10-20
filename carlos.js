@@ -12,4 +12,12 @@ function tipoJuegos(){
         "<label for='deportes'>Deportes</label>"+
         "<input type='radio' name='deportes' id='deportes'/>" 
     div2.innerHTML = textos
+
+    let textos2 =
+        "<select name='genero'>"+
+            "<option value='masculino'>Masculino</option>"+
+            "<option value='femenina'>Femenina</option>"+
+            "<option value='prefiero_no_contestar'>Prefiero no contestar</option>"+
+        "</select>"
+    divGenero.innerHTML = textos2
 }
