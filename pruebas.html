@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nintendo Sign In</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    
+    <header>
+        <a href="index.html"><img class="logo-header" src="img/nintendo_logo.png"/></a>
+        <p class="text-header">Sign In</p>
+    </header>
+
+    <main>
+        <div class="form-container">
+            <p class="form-container-title">Crear Cuenta Nintendo</p>
+            <form id="form" class="form-container-content" name="formulario" action="" method="get"> <!--Todo el contenido generado por javascript va dentro de este div-->
+
+                <div id="datos_personales_container">
+                    <div class="dato_personal"><label for="nombre">Nombre</label><input placeholder="Escriba el nombre" type="text" name="nombre" id="nombre"></div>
+                    <div class="dato_personal"><label for="dni">Dni</label><input type="text" name="dni" id="dni"></div>
+                    <div class="dato_personal"><label for="apellidos">Apellidos</label><input type="text" name="apellidos" id="apellidos"></div>
+                    <div class="dato_personal"><label for="telefono">Telefono</label><input type="tel" name="telefono" id="telefono"></div>
+                    <div class="dato_personal"><label for="texto">Opinion</label><textarea name="texto" id="texto"></textarea></div>
+                </div>
+
+                <div id="tipo_videojuego_container">
+                    <h4>¿Que tipo videojuegos sueles jugar?</h4>
+                    <div class="tipo_videojuego"><label for="puzzle">Puzzle</label><input type="radio" name="puzzle" id="puzzle"></div>
+                    <div class="tipo_videojuego"><label for="action">Action</label><input type="radio" name="action" id="action"></div>
+                    <div class="tipo_videojuego"><label for="primera_persona">Primera persona</label><input type="radio" name="primera_persona"
+                            id="primera_persona"></div>
+                    <div class="tipo_videojuego"><label for="deportes">Deportes</label><input type="radio" name="deportes" id="deportes"></div>
+                </div>
+
+                <div class="all_checkbox_container">
+                <div id="edad_checkbox_container" class="checkbox_container">
+                    <h4>Edad</h4>
+                    <div class="checkbox_content"><input type="checkbox" id="rango_menor" name="rango_menor"
+                        value="rango_menor"><label>Tengo menos de 18 años</label></div>
+
+                        
+                        <input type="checkbox" id="rango_veintena"
+                        name="rango_veintena" value="rango_veintena"><label>Tengo entre 18 y 30 años años</label><input type="checkbox"
+                        id="rango_treintena" name="rango_treintena" value="rango_treintena"><label>Tengo entre 30 y 40
+                        años</label><input type="checkbox" id="rango_centena" name="rango_centena" value="rango_centena"><label>Tengo
+                        más de 40 años</label></div>
+                <div id="juego_checkbox_container" class="checkbox_container">
+                    <h4>Cual de los siguientes generos es tu favorito...</h4>
+                    <label>Bélico</label><input type="checkbox" id="belico" name="belico"
+                        value="belico"><label>Acción</label><input type="checkbox" id="accion" name="accion"
+                        value="accion"><label>Plataforma</label><input type="checkbox" id="plataforma" name="plataforma"
+                        value="plataforma"><label>Deportivo</label><input type="checkbox" id="deportivo" name="deportivo"
+                        value="deportivo"><label>Arcade</label><input type="checkbox" id="arcade" name="arcade"
+                        value="arcade"><label>Estrategia</label><input type="checkbox" id="estrategia" name="estrategia"
+                        value="estrategia"></div>
+                <div id="tiposConsola_checkbox_container" class="checkbox_container"><label>Un tipo</label><input type="checkbox" id="uno" name="uno"
+                        value="uno"><label>Dos tipos</label><input type="checkbox" id="dos" name="dos" value="dos"><label>Tres o más
+                        tipos</label><input type="checkbox" id="tres_omas" name="tres_omas" value="tres_omas"></div>
+                <div id="idioma_checkbox_container" class="checkbox_container"><label>Español</label><input type="checkbox" id="español" name="español"
+                        value="español"><label>Inglés</label><input type="checkbox" id="ingles" name="ingles"
+                        value="ingles"><label>Francés</label><input type="checkbox" id="frances" name="frances"
+                        value="frances"><label>Alemán</label><input type="checkbox" id="aleman" name="aleman"
+                        value="aleman"><label>Chino</label><input type="checkbox" id="chino" name="chino"
+                        value="chino"><label>Ruso</label><input type="checkbox" id="ruso" name="ruso" value="ruso"></div>
+                
+                </div>
+                <div id="infoMail_checkbox_container" class="checkbox_container"><label>Si, acepto recibir información</label><input type="checkbox" id="mail_si"
+                    name="mail_si" value="mail_si"></div>
+            </form>
+        </div>
+    </main>
+
+</body>
+</html>
