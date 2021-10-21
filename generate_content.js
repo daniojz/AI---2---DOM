@@ -1,8 +1,8 @@
 
 
 var formulario = document.getElementById("form");/* obtengo el elemento form del documento */
-
 añadirInputText();
+añadirSelect();
 añadirRadioButtom();
 añadirCheckbox();
 añadirEstilo();
@@ -49,6 +49,11 @@ function añadirRadioButtom(){
 
     let textos =
         "<h4>¿Que tipo videojuegos sueles jugar?</h4>"+
+
+        "<div>"+
+        "<img src='img/mario_yoshi.png'/>"+
+        "</div>"+
+
         "<div>"+
         "<label for='puzzle'>Puzzle:</label>"+
         "<input type='radio' name='puzzle' id='puzzle'/>"+
@@ -67,11 +72,31 @@ function añadirRadioButtom(){
         "<div>"+
         "<label for='deportes'>Deportes</label>"+
         "<input type='radio' name='deportes' id='deportes'/>"+ 
-        "</div>"
+        "</div>"+
+
+        "<div>"+
+        "<img src='img/mario.png'/>"+
+        "</div>";
 
     div_tipo_videojuego.innerHTML = textos
     
     formulario.appendChild(div_tipo_videojuego)
+}
+
+function añadirSelect(){
+    let div_genero = document.createElement("div");
+    div_genero.id = "genero";
+
+    let genero =
+    "<select id='gen' name='genero'>"+
+        "<option value='masculino'>Masculino</option>"+
+        "<option value='femenina'>Femenina</option>"+
+        "<option value='prefiero_no_contestar'>Prefiero no contestar</option>"+
+    "</select>";
+    
+    div_genero.innerHTML = genero;
+    
+    formulario.appendChild(div_genero);
 }
 
 function añadirCheckbox(){
@@ -413,14 +438,17 @@ function añadirCheckbox(){
 
     div_all_checkbox.appendChild(div_info_mail);
 
-    
-    
-    /* INSERTAR  IMAGENES */
-    // var img = document.createElement ("img");
-    // img.src= imgfirst;
-    // img.alt="Logo_medad";
-
     formulario.appendChild(div_all_checkbox) /* se añade el contenedor que contiene todos los checkbox al formulario*/
+
+    /*BOTON_ENVIAR*/
+    div = document.createElement("div");
+    button = document.createElement ("button");
+    texto_button =document.createTextNode("Enviar"); 
+    button.type = "submit";
+    div.className="enviar_container";
+    button.appendChild(texto_button);
+    div.appendChild(button)
+    formulario.appendChild(div);
 }
 
 
@@ -428,21 +456,30 @@ function añadirEstilo(){
 
     /*CONTENEDORES_DE_DATOS_PERSONALES_INPUT_TEXT*/
     var datos_personales_container = document.getElementById("datos_personales_container");
-    var elementos_container = datos_personales_container.querySelectorAll("div");;
+    var elementos_container = datos_personales_container.querySelectorAll("div");
 
     elementos_container.forEach(elemento => {
-        // if (elemento.type=="div") {
-        //     elemento.classList.add('dato_personal')
-        // }
-        elemento.classList.add('dato_personal')
+        elemento.classList.add('dato_personal');
     });
+
+    /*SELECT_GENERO*/
+    var gen_select = document.getElementById("gen");
+    gen_select.className="genero_container";
 
     /*TIPOS_DE_JUEGOS_RADIO_BUTTOM*/
     var tipo_videojuego_container = document.getElementById("tipo_videojuego_container");
-    var elementos_container = tipo_videojuego_container.querySelectorAll("div");;
+    var elementos_container = tipo_videojuego_container.querySelectorAll("div");
 
     elementos_container.forEach(elemento => {
         elemento.classList.add('tipo_videojuego')
+    });
+    
+    /*IMAGENES*/
+    var tipo_videojuego_container = document.getElementById("tipo_videojuego_container");
+    var elementos_container = tipo_videojuego_container.querySelectorAll("img");
+
+    elementos_container.forEach(elemento => {
+        elemento.classList.add('imagen')
     });
 
     /*PREGUNTAS_CHECKBOX*/
