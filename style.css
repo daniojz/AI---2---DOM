@@ -64,6 +64,8 @@ main {
     border-radius: 10px;
     border: white solid 7px;
     background-color: rgb(238, 238, 238);
+
+    box-shadow: 0px -10px 30px rgba(0, 0, 0, 0.11);
 }
 
 /*---FORM--CONTENT---*/
@@ -98,13 +100,18 @@ main {
     border-radius: 4px;
 }
 
-#tipo_videojuego_container{
-    padding: 3% 10%;
 
+#genero{
     display: flex;
     justify-content: center;
 }
+.genero_container{
+    width: 50%;
+    height: 30px;
+}
+
 #tipo_videojuego_container{
+    padding: 3% 10%;
     display: block;
     text-align: center;
 }
@@ -142,4 +149,13 @@ main {
     border: none;
 }
 
+.imagen {
+    height: 60px;
+}
+.enviar_container {
+    margin-bottom: 5%;
+
+    display: flex;
+    justify-content: center;
+}
 
