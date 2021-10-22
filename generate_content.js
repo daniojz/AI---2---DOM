@@ -56,22 +56,22 @@ function añadirRadioButtom(){
 
         "<div>"+
         "<label for='puzzle'>Puzzle:</label>"+
-        "<input type='radio' name='puzzle' id='puzzle'/>"+
+        "<input type='radio' name='tipo_videojuego' id='puzzle'/>"+
         "</div>"+
 
         "<div>"+
         "<label for='action'>Action:</label>"+
-        "<input type='radio' name='action' id='action'/>"+
+        "<input type='radio' name='tipo_videojuego' id='action'/>"+
         "</div>"+
 
         "<div>"+
         "<label for='primera_persona'>Primera persona:</label>"+
-        "<input type='radio' name='primera_persona' id='primera_persona'/>"+
+        "<input type='radio' name='tipo_videojuego' id='primera_persona'/>"+
         "</div>"+
 
         "<div>"+
         "<label for='deportes'>Deportes</label>"+
-        "<input type='radio' name='deportes' id='deportes'/>"+ 
+        "<input type='radio' name='tipo_videojuego' id='deportes'/>"+ 
         "</div>"+
 
         "<div>"+
